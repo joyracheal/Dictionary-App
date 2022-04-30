@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+
+$primary-color:#f4f4f4;
+$secondary-color:#5f9af5;
+$tertiary-color:#25272a;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  background-color:#f4f4f4;
+}
+.container{
+  height:'100vh';
+  background:'#f4f4f4';
+  color:'#25272a';
+  &_body{
+    display:'flex'; 
+    flex-direction:'column'; 
+    height:'100vh';
+  
+  }
+  .search{
+    width: 50%;
+  }
+}
+
+
+
+
